@@ -24,6 +24,8 @@
             margin: 0 auto;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
         }
 
         th, td {
@@ -35,14 +37,29 @@
         th {
             background-color: #4CAF50;
             color: white;
+            font-weight: bold;
         }
 
         tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #f9f9f9;
         }
 
         tr:hover {
-            background-color: #ddd;
+            background-color: #f1f1f1;
+        }
+
+        .details {
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            font-size: 1.1em;
+        }
+
+        .details h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -57,6 +74,7 @@
                 <th>Name of the College</th>
                 <th>No. of Seats</th>
                 <th>Location</th>
+                <th>Website</th>
             </tr>
         </thead>
         <tbody>
@@ -65,63 +83,79 @@
                 <td>All India Institute of Medical Sciences (AIIMS)</td>
                 <td>1205</td>
                 <td>New Delhi</td>
+                <td><a href="https://www.aiims.edu/" target="_blank">aiims.edu</a></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Armed Forces Medical College</td>
                 <td>130</td>
                 <td>Pune</td>
+                <td><a href="https://www.afmc.nic.in/" target="_blank">afmc.nic.in</a></td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER)</td>
                 <td>200</td>
                 <td>Puducherry</td>
+                <td><a href="https://www.jipmer.edu.in/" target="_blank">jipmer.edu.in</a></td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Maulana Azad Medical College (MAMC)</td>
                 <td>290</td>
                 <td>New Delhi</td>
+                <td><a href="http://www.mamc.ac.in/" target="_blank">mamc.ac.in</a></td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Grant Government Medical College</td>
                 <td>207</td>
                 <td>Mumbai</td>
+                <td><a href="http://www.gmcbbmumbai.com/" target="_blank">gmcbbmumbai.com</a></td>
             </tr>
             <tr>
                 <td>6</td>
                 <td>Bangalore Medical College</td>
                 <td>250</td>
                 <td>Bengaluru</td>
+                <td><a href="http://www.bmc.edu.in/" target="_blank">bmc.edu.in</a></td>
             </tr>
             <tr>
                 <td>7</td>
                 <td>Institute of Medical Science, Banaras Hindu University (BHU)</td>
                 <td>50</td>
                 <td>Banaras</td>
+                <td><a href="https://www.bhu.ac.in/ims/" target="_blank">bhu.ac.in/ims</a></td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Seth GS Medical College</td>
                 <td>180</td>
                 <td>Mumbai</td>
+                <td><a href="http://www.sethgsmedicals.edu.in/" target="_blank">sethgsmedicals.edu.in</a></td>
             </tr>
             <tr>
                 <td>9</td>
                 <td>University College of Medical Sciences, University of Delhi</td>
                 <td>71</td>
                 <td>Delhi</td>
+                <td><a href="http://www.ucms.ac.in/" target="_blank">ucms.ac.in</a></td>
             </tr>
             <tr>
                 <td>10</td>
                 <td>BJ Medical College</td>
                 <td>250</td>
                 <td>Ahmedabad</td>
+                <td><a href="http://www.bjmc.org/" target="_blank">bjmc.org</a></td>
             </tr>
         </tbody>
     </table>
+
+    <div class="details">
+        <h2>More About Medical Colleges</h2>
+        <p>The medical colleges listed here are among the most prestigious institutions in India, offering top-notch medical education and training. They provide world-class facilities and a rigorous curriculum to prepare students for careers in medicine. Each college has a unique set of features, including advanced research facilities, experienced faculty, and a comprehensive approach to medical education.</p>
+        <p>For prospective students, researching each college's programs, campus facilities, faculty, and admission criteria is essential. Visiting the official websites and contacting the colleges directly can provide detailed and updated information to help in making an informed decision.</p>
+    </div>
 
 </body>
 </html>
